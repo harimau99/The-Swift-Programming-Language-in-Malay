@@ -1,0 +1,3 @@
+Fail ini mengandungi nama dan emel par penyumbang kerja penterjemahan ini
+
+- Natthan Leong <natthan@alumni.ubc.ca>
