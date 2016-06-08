@@ -29,6 +29,7 @@ Kerja penterjemahan projek ini berlaku di cawangan(*branch*) [Belum Selesai](htt
 #### Rujukan 
 
 - [Bahasa Pengaturcaraan](https://ms.wikipedia.org/wiki/Bahasa_pengaturcaraan) - Wikipedia Bahasa Melayu, ensiklopedia bebas
+- [Pengaturcaraan berorientasi objek](https://ms.wikipedia.org/wiki/Pengaturcaraan_berorientasi_objek) - Wikipedia Bahasa Melayu, ensiklopedia bebas
 
 #### Lain-lain
 

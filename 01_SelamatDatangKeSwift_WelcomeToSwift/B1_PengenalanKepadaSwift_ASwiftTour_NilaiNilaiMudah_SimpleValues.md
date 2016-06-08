@@ -20,7 +20,7 @@ let jelaskanJenisDouble: Double = 70
 
 > Eksperimen: Binakan sebuah nilai malar dengan jenis nilai jelas `Float` dengan nilai `4`.
 
-Nilai-nilai tidak akan sekali pun ditukarkan kepada jenis-jenis lain. Kalau anda perlu menukarkan nilai sesuatu kepada jenis lain, binalah sebuah ciptaan(*instance*) jenis tersebut dengan penjelasan.
+Nilai-nilai tidak akan sekali pun ditukarkan kepada jenis-jenis lain. Kalau anda perlu menukarkan nilai sesuatu kepada jenis lain, binalah sebuah tentuan(*instance*) jenis tersebut dengan penjelasan.
 
 ```swift
 let label = "Lebarnya ialah "
@@ -54,7 +54,7 @@ var perkerjaan = [
 perkerjaan["Jayne"] = "Hubungan Awam"
 ```
 
-Untuk pembinaan *array* atau *dictionary* kosong, gunakan sintaks pengawalan.
+Untuk pembinaan *array* atau *dictionary* kosong, gunakan sintaks pengasal.
 
 ```swift
 let arrayKosong = [String]()
