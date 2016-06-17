@@ -1,0 +1,13 @@
+### The Basics
+
+Swift merupakan sebuah bahasa pengaturcaraan baru untuk pembinaan aplikasi iOS, OS X, watchOS dan tvOS. Walaubagaimanapun, terdapat seksyen dalam Swift yang anda akan rasa biasa dari pengalaman anda mengatur cara dalam C dan Objektif-C.
+
+Swift memberikan kesemuaan jenis asas C dan Objektif-C sendiri, termasuk `Int` untuk integer, `Double` dan `Float` untuk nilai-nilai *floating-point*, `Bool` untuk nilai-niali *Boolean* dan `String` untuk data teks. Swift juga menyediakan tiga jenis koleksi utama sendiri yang berkuasa, `Array`, `Set` dan `Dictionary`, yang diterangkan dalam [Jenis-Jenis Koleksi](https://github.com/contraultra/The-Swift-Programming-Language-in-Malay/blob/Selesai/02_PanduanBahasa_LanguageGuide/D0_JenisJenisKoleksi_CollectionTypes.md).
+
+Seperti C, Swift mengunakan pemboleh ubah untuk menyimpan dan merujuk kepada nilai-nilai yang dikenal pasti dengan nama. Swift juga mengunakan dengan kesungguhannya pemboleh ubah yang nilainya tetap. Ini dikenali sebagai nilai malar dan ia lebih berkuasa dari nilai malar yang terdapat  di dalam C. Nilai malar digunakan di keseluruhan Swift untuk menjadikan kod agar lebih selamat dan lebih jelas dalam niat apabila anda bekerja dengan nilai-nilai yang tidak perlu berubah.
+
+Di samping jenis lazim, Swift memperkenalkan jenis-jenis maju yang tidak terdapat dalam Objektif-C, seperti tupel. Tupel membolehkan pembinaaan dan pengerakkan sekitar bagi nilai-nilai kumpulan. Anda boleh gunakan sebuah tupel untuk memulangkan pelbagai nilai dari sebuah fungsi sebagai sebuah nilai kompaun.
+
+Swift juga memperkenalkan jenis *optional* yang mengendalikan ketiadaan sebuah nilai. *Optional* bermakna sama ada "*terdapat* nilai dan nilainya *x*" atau "*ketiadaan* nilai sama sekali". Pengunaan *optional* sama dengan pengunaan `nil` dengan penunjuk(*pointer*) dalam Objektif-C, tetapi mereka berfungsi dengan semua jenis, bukan sahaja jenis kelas. Bukan sahaja *optional* lebih selamat dan lebih ekspresif berbanding penunjuk `nil` dalam Objektif-C, mereka berada di tengah-tengah kebanyakan ciri-ciri yang paling berkuasa dalam Swift.
+
+Swift merupakan bahasa *jenis-selamat* (*type-safe*) iaitu bahasa ini menolong anda agar lebih jelas tentang jenis nilai-nilai kod anda. Kalau sebahagian kod anda menjangkakan sebuah `String`, keselamatan jenis menghalangkan anda dari memberikannya sebuah `Int` secara tidak sengaja. Begitu juga keselamatan jenis menghalangkan anda dari memberikan sebuah `String` *optional* kepada sehelai kod yang menjangkakan `String` bukan *optional*. Keselamatan jenis membantu anda menangkap dan memperbaiki ralat seawal mungkin dalam proses pengatur cara.
