@@ -23,7 +23,7 @@ Kerja penterjemahan projek ini berlaku di cawangan(*branch*) [Belum Selesai](htt
 
 - Sila lawati [seksyen isu-isu](https://github.com/contraultra/The-Swift-Programming-Language-in-Malay/issues) projek untuk sertai perbincangan kerja penterjemahan berdasarkan bab.
 - Sila merujuk kerja penterjemahan yang sedia ada dan rujukan di bawah.
-- Kalau boleh, sila menterjemahkan gambar-gambar ilustrasi juga. Contoh: TBA   
+- Kalau boleh, sila menterjemahkan gambar-gambar ilustrasi juga. [Contoh](https://github.com/contraultra/The-Swift-Programming-Language-in-Malay/blob/Selesai/02_PanduanBahasa_LanguageGuide/Gambar_Images/JenisJenisKoleksi_1.png).   
 (Hubungi saya pada seksyen isu-isu jika anda lebih selesa jika saya membuat penterjemahan gambar ilustrasi tersebut.)
 
 #### Rujukan 
