@@ -1,6 +1,6 @@
 #### Objek dan Kelas
 
-Gunakan `class` disampingkan nama kelas untuk pembinaan sebuah kelas. Pengisytiharan sifat(*property*) di dalam kelas detulis dengan cara biasa, tetapi konteksnya dalam sebuah kelas. Begitu juga bagi pengisytiharan kaedah(*method*) dan pengisytiharan fungsi.
+Gunakan `class` disampingkan nama kelas untuk pembinaan sebuah kelas. Pengisytiharan sifat(*property*) di dalam kelas ditulis dengan cara biasa, tetapi konteksnya dalam sebuah kelas. Begitu juga bagi pengisytiharan kaedah(*method*) dan pengisytiharan fungsi.
 
 ```swift
 class Bentuk {
@@ -11,7 +11,7 @@ class Bentuk {
 }
 ```
 
-> Eksperimen: Tambahan nilai malar dengan `let` dan tambahkan kaedah yang menerima sebuah argumen
+> Eksperimen: Tambahkan nilai malar dengan `let` dan tambahkan kaedah yang menerima sebuah argumen
 
 Binakan sebuah tentuan(*instance*) kelas dengan meletakkan kurungan selepas nama kelas. Gunakan sintaks titik untuk akses sifat and kaedah tentuan tersebut.
 
@@ -44,7 +44,7 @@ Gunakan `deinit` untuk membina sebuah *deinitializer* jika anda perlu melaksanak
 
 Subkelas memasukkan nama kelas yang diwarisi(*superclass*) selepas nama kelas sendiri, dipisahkan dengan kolon. Tidak wujudnya keperluan bagi kelas untuk mewarisi apa-apa kelas akar(*root*) standard, jadi anda boleh memasukkan atau meninggalkan kelas yang diwarisi berdasarkan keperluan.
 
-Kaedah sebuah subkelas yang mengatasi implementasi kelas yang diwarisinya ditanda dengan `override` - jika sebuah kaedah diatasi dengan sengaja, tanpa `override`, ia akan dikesan oleh pengkompil sebagai sebuah ralat. Pengkompil juga megesan kaedah dengan `override` yang tidak mengatasi apa-apa kaedah dalam kelas yang diwarisinya.
+Kaedah sebuah subkelas yang mengatasi implementasi kelas yang diwarisinya ditanda dengan `override` - jika sebuah kaedah diatasi dengan sengaja, tanpa `override`, ia akan dikesan oleh pengkompil sebagai sebuah ralat. Pengkompil juga mengesan kaedah dengan `override` yang tidak mengatasi apa-apa kaedah dalam kelas yang diwarisinya.
 
 ```swift
 class Persegi: BentukDinamakan {
