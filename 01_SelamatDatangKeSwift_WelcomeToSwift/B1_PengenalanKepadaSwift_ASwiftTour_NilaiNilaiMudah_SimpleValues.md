@@ -1,6 +1,6 @@
 #### Nilai-nilai Mudah
 
-Gunakan `let` untuk nilai-nilai malar/tetap dan `var` untuk nilai-nilai pemboleh ubah. Nilai sebuah nilai malar tidak perlu dikenalpasti semasa kompilasi, tetapi nilainya harus ditetapkan sekali. Ini bermakna bahawa anda boleh menggunakan nilai-nilai malar untuk pembinaan sebuah nilai yang anda akan tentukan sekali sahaja tetapi ia boleh digunakan di ramai lokasi.
+Gunakan `let` untuk nilai-nilai malar/tetap dan `var` untuk nilai-nilai pemboleh ubah. Nilai sebuah nilai malar tidak perlu dikenalpasti semasa kompilasi, tetapi nilainya harus ditetapkan sekali. Ini bermakna bahawa anda boleh menggunakan nilai-nilai malar untuk pembinaan sebuah nilai yang anda akan tentukan sekali sahaja tetapi ia boleh digunakan di banyak lokasi.
 
 ```swift
 var nilaiPembolehUbahKu = 42
@@ -30,7 +30,7 @@ let labelLebar = label + String(lebar)
 
 > Eksperimen: Cuba mengeluarkan pertukaran ke jenis `String` dari ayat terakhir di atas. Apakah ralat yang anda menerima?
 
-Wujudnya cara lebih mudah untuk memasukkan nilai dalam perkataan: Tuliskan nilai tersebut dalam kurungan dan tuliskan sebuah garis sendeng terbalik (`\`) sebelum kurungan. Sebagai contoh:
+Terdapat cara lebih mudah untuk memasukkan nilai dalam perkataan: Tuliskan nilai tersebut dalam kurungan dan tuliskan sebuah garis sendeng terbalik (`\`) sebelum kurungan. Sebagai contoh:
 
 ```swift
 let epal = 3
