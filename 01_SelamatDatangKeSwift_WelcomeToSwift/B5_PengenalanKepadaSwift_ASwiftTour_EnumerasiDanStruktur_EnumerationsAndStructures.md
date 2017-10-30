@@ -38,7 +38,7 @@ if let rangkaDitukarkan = Rank(rawValue: 3) {
 }
 ```
 
-Nilai-nilai kes sebuah enumerasi merupakan nilai sebenarnya dan bukan sahaja cara berlainan untuk penulisan nilai mentahnya. Malahnya, anda tidak perlu memberikannya dalam kes di mana ketiadaan nilai mentah yang bermakna.
+Nilai-nilai kes sebuah enumerasi merupakan nilai sebenarnya dan bukan sahaja cara berlainan untuk penulisan nilai mentahnya. Malahan, anda tidak perlu memberikannya dalam kes di mana ketiadaan nilai mentah yang bermakna.
 
 ```swift
 enum Sut {
@@ -62,9 +62,9 @@ let deskripsiHeart = hearts.deskripsiMudah()
 
 > Eksperimen: Tambahkan kaedah `warna()` kepada `Sut` yang pulangkan "hitam" untuk *spades* dan *clubs*, dan pulangkan "merah" untuk *hearts* dan *diamonds*.
 
-Lihatlah kedua-dua cara kes `Hearts` enumerasi di atas dirujukkan: Apabila menetapkan sebuah nilai kepada nilai malar `hearts`, kes enumerasi `Sut.Hearts` dirujukkan dengan nama penuh kerana nilai malar tersebut tidak memiliki sebuah jenis jelas yang nyata. Dalam *switch*, kes enumerasi tersebut dirujukkan dengan singkatan `.Hearts` kerana nilai `self` dahlah dikenalpasti sebagai sebuah sut. Anda boleh menggunakan singkatan apabila jenis nilai dah dikenalpasti.
+Lihatlah kedua-dua cara kes `Hearts` enumerasi di atas dirujukkan: Apabila menetapkan sebuah nilai kepada nilai malar `hearts`, kes enumerasi `Sut.Hearts` dirujukkan dengan nama penuh kerana nilai malar tersebut tidak memiliki sebuah jenis jelas yang nyata. Dalam *switch*, kes enumerasi tersebut dirujukkan dengan singkatan `.Hearts` kerana nilai `self` sudah dikenalpasti sebagai sebuah sut. Anda boleh menggunakan singkatan apabila jenis nilai sudah dikenalpasti.
 
-Gunakan `struct` untuk pembinaan struktur. Struktur menyokong pelbagai tingkah laku yang sama dengan kelas, termasuknya kaedah dan pengasal. Perbezaan terpenting antara struktur dan kelas adalah bahawa struktur akan sentiasa disalin apabila mereka diedarkan dalam kod anda tetapi kelas diedarkan secara rujukan.
+Gunakan `struct` untuk pembinaan struktur. Struktur menyokong pelbagai tingkah laku yang sama dengan kelas, termasuklah kaedah dan pengasal. Perbezaan terpenting antara struktur dan kelas ialah struktur akan sentiasa disalin apabila mereka diedarkan dalam kod anda tetapi kelas diedarkan secara rujukan.
 
 ```swift
 struct Kad {
